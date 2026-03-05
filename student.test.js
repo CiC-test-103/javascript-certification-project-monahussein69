@@ -7,7 +7,7 @@ function createMockStudents() {
   return [
     new Student('AliceJohnson', 2, 'alice@example.com', 'computerScience'),
     new Student('BobSmith', 3, 'bob@example.com', 'Engineering'),
-    new Student('CharlieBrown', 4, 'charlie@example.com', 'Mathematics'),
+    new Student('CharlieBrown', 4, 'charlie@example.com', 'computerScience'),
   ];
 }
 
