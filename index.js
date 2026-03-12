@@ -113,7 +113,7 @@ async function handleCommand(command) {
       if (student === -1) {
         console.log("Student does not exist")
       } else {
-        console.log(student)
+        console.log(student.getString())
       }
 
 
@@ -204,3 +204,4 @@ rl.on('line', async (input) => {
 rl.on('close', () => {
   console.log('Goodbye!');
 });
+
